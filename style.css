@@ -183,6 +183,11 @@ input:-webkit-autofill:focus {
     background-color: #f2fefe;
 }
 
+.logo_navi {
+  height: 30px;
+  width: auto;
+}
+
 /**
 *Default Button
 **/

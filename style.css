@@ -197,7 +197,7 @@ input:-webkit-autofill:focus {
     padding: 8px 30px;
     border-radius: 50px;
     color: #ffffff;
-    background-color: #2f60c3;
+    background-color: #e3a64e;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border: none;
@@ -208,11 +208,11 @@ input:-webkit-autofill:focus {
 .button.white,
 .button:hover {
     background-color: #ffffff;
-    color: #138fc2;
+    color: #e3a64e;
 }
 
 .button.white:hover {
-    background-color: #2f60c3;
+    background-color: #e3a64e;
     color: #ffffff;
 }
 
@@ -371,7 +371,6 @@ input:-webkit-autofill:focus {
 *Header-area
 **/
 
-.client-area,
 .header-area {
     background: #000000 url('images/back.png') no-repeat scroll center center / cover;
 }
@@ -646,7 +645,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .price-area {
-    background: url('images/head.jpg') no-repeat scroll center center / cover
+    background: url('images/blankets_blue.jpg') no-repeat scroll center center / cover
 }
 
 .price-table h3 {
@@ -685,7 +684,7 @@ input:-webkit-autofill:focus {
     width: 100px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: #55A2BE;
+    background-color: #e3a64e;
     color: #ffffff;
     border-radius: 0 0 50% 50%;
     padding-bottom: 5px;
@@ -717,7 +716,7 @@ input:-webkit-autofill:focus {
     top: 20px;
     width: 36px;
     height: 36px;
-    background: #2f60c3;
+    background: #e3a64e;
     border-radius: 50%;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -784,6 +783,13 @@ input:-webkit-autofill:focus {
     background-color: #ffffff
 }
 
+/***
+*Client-area
+***/
+
+.client-area {
+    background: #212121 url('images/polygonal_art.jpg') no-repeat scroll center center / cover;
+}
 
 /***
 *Footer-area
@@ -795,7 +801,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom / 100% auto;
+    background: url('images/greatwave.jpg') no-repeat scroll center bottom / 100% auto;
     z-index: -1;
 }
 

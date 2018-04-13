@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="buy.js"></script>
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -65,6 +66,9 @@
                     <li><a href="#team-page">Team</a></li>
                     <li><a href="#faq-page">FAQ</a></li>
                     <li><a href="#contact-page">Contact</a></li>
+                    <li><a>-</a></li>
+                    <li><a href="">IT</a></li>
+                    <li><a href="">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -82,7 +86,7 @@
                     <img class="logo_s" src="images/logo.png" alt="">
                     <h3>Book today</h3>
                     <h3>the non-intrusive anti snoring device</h3>
-                    <a href="#contact-page" class="button white">Book now</a>
+                    <a href="#contact-page" class="button white booking" onclick="bookBaku()">Book now</a>
                 </div>
             </div>
         </div>
@@ -132,59 +136,55 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="page-title">
-                        <h2>Afortable Price</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                        <h2>PRICE</h2>
+                        <p>You want to book Baku? Here is the price!</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table">
-                        <h3 class="text-uppercase price-title">Basic</h3>
+                        <h3 class="text-uppercase price-title">Cover</h3>
                         <hr>
                         <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
+                            <li><strong class="amount"><span class="big">39</span> €</strong></li>
+                            <li>Different materials</li>
+                            <li>Different colors</li>
+                            <li>The best option for your room</li>
                         </ul>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="#contact-page" class="button" onclick="bookCover()">Book Cover</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table active">
                         <span class="price-info"><span class="ti-crown"></span></span>
-                        <h3 class="text-uppercase price-title">STABDARD</h3>
+                        <h3 class="text-uppercase price-title">BAKU</h3>
                         <hr>
                         <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">39</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
+                            <li><strong class="amount"><span class="big">310</span> €</strong></li>
+                            <li>The non-intrusive anti snoring device</li>
+                            <li>lithium battery included</li>
+                            <li>~20 days without charging</li>
+                            <li>App included</li>
+                            <li>Standard Cover</li>
                         </ul>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="#contact-page" class="button" onclick="bookBaku()">BOOK BAKU</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table">
-                        <h3 class="text-uppercase price-title">UNLIMITED</h3>
+                        <h3 class="text-uppercase price-title">TRAVEL PACK</h3>
                         <hr>
                         <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
+                            <li><strong class="amount"><span class="big">59</span> €</strong></li>
+                            <li>The best way to travel with Baku</li>
+                            <li>Well designed Box</li>
+                            <li>No way it gets hurt</li>
                         </ul>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="#contact-page" class="button" onclick="bookTravelBox()">Book Travel Box</a>
                     </div>
                 </div>
             </div>
@@ -204,14 +204,26 @@
                 </div>
             </div>
             <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/citro.jpg" alt="">
+                        </div>
+                        <h4>FEDERICO CITRONI</h4>
+                        <h6>Co-founder - Technology</h6>
+                        <ul class="social-menu">
+                            <li><a href="https://www.facebook.com/FedericoCit"><i class="ti-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/federico-citroni-013a9a136/"><i class="ti-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="single-team">
                         <div class="team-photo">
                             <img src="images/mick.jpg" alt="">
                         </div>
                         <h4>MICHELE SORDO</h4>
-                        <h6>Co-founder</h6>
+                        <h6>Co-founder - Executive</h6>
                         <ul class="social-menu">
                             <li><a href="https://www.facebook.com/mickfenneck/"><i class="ti-facebook"></i></a></li>
                             <li><a href="https://twitter.com/MickFenneck"><i class="ti-twitter"></i></a></li>
@@ -219,17 +231,17 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/citro.jpg" alt="">
+                            <img src="images/maria.jpg" alt="">
                         </div>
-                        <h4>FEDERICO CITRONI</h4>
-                        <h6>Co-founder</h6>
+                        <h4>MARIA DOGLIONI</h4>
+                        <h6>Developer</h6>
                         <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href=""><i class="ti-facebook"></i></a></li>
+                            <li><a href=""><i class="ti-twitter"></i></a></li>
+                            <li><a href=""><i class="ti-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -304,52 +316,7 @@
                 <div class="col-xs-12">
                     <div class="clients">
                         <div class="item">
-                            <img src="images/themeforest.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/docean.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/actividen.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/photodone.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/videgub.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/themeforest.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/docean.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/actividen.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/photodone.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/videgub.gif" alt="">
+                            <img src="images/tsviluppo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -376,11 +343,11 @@
                         <address class="side-icon-boxes">
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/location-arrow.png" alt="">
+                                    <img src="images/location-arrow-2.png" alt="">
                                 </div>
                                 <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
                             </div>
-                            <div class="side-icon-box">
+                            <!--<div class="side-icon-box">
                                 <div class="side-icon">
                                     <img src="images/phone-arrow.png" alt="">
                                 </div>
@@ -388,14 +355,13 @@
                                     <a href="callto:8801812726495">+8801812726495</a> <br />
                                     <a href="callto:8801687420471">+8801687420471</a>
                                 </p>
-                            </div>
+                            </div>-->
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/mail-arrow.png" alt="">
+                                    <img src="images/mail-arrow-2.png" alt="">
                                 </div>
                                 <p><strong>E-mail: </strong>
-                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
-                                    <a href="mailto:youremail@example.com">example@mail.com</a>
+                                    <a href="mailto:baku@snorecatcher.it">baku@snorecatcher.it</a> <br />
                                 </p>
                             </div>
                         </address>
@@ -408,7 +374,7 @@
                             </div>
                             <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
                             <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
-                            <button type="sibmit" class="button">Submit</button>
+                            <button type="submit" class="button">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -427,7 +393,7 @@
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti architecto consequuntur, laborum quaerat sed nemo temporibus unde, beatae vel.</p>
+                        <p>We help you get the better sleep experience.</p>
                     </div>
                 </div>
             </div>
